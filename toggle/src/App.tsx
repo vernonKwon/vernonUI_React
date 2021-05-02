@@ -42,8 +42,6 @@ const Background = ({
     align-items: center;
     background: #ff0000;
     flex-flow: end;
-    ${() =>
-      isCheck && `animation: ${moveCircle} 2s 1s infinite linear alternate;`}
 `
 
   console.log(isCheck)
