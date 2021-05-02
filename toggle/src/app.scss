@@ -1,0 +1,21 @@
+.test {
+  display: flex;
+  border: 1px solid blue;
+}
+
+.circle-false {
+  border-radius: 50%;
+  background-color: #ffee00;
+  height: 30px;
+  width: 30px;
+  transition: 0.25s all;
+}
+
+.circle-true {
+  border-radius: 50%;
+  background-color: #ffee00;
+  height: 30px;
+  width: 30px;
+  margin-left: 50%;
+  transition: 0.25s all;
+}
